@@ -1,0 +1,21 @@
+﻿{
+  "posts": [
+    {
+      "id": 1,
+      "title": "标题",
+      "author": "lisa"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some",
+      "postID": 1
+    }
+  ],
+  "profile": {
+    "name": "lisa",
+    "age": 19,
+    "gender": "women"
+  }
+}
