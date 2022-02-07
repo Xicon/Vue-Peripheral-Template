@@ -1,13 +1,14 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import {createPinia} from 'pinia'
-import { router } from '@/router'
+import { createPinia } from 'pinia' // pinia@next
+import { router } from '@/router' // vue-router@next
+import { i18n } from '@/language' // vue-i18n@next
 
+// element-plus start
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-
-import { i18n } from '@/language'
+// element-plus end
 
 createApp(App)
 		.use(createPinia())
